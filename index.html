@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sản Phẩm Boostrap</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="style.CSS">
+    <script src="xuly_xemthem.js"></script>
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+   <div class="container-fulid">
+      <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+              <a class="navbar-brand" href="#">
+                  <img src="./imagine/logo.png" width="200px" height="100px">
+              </a>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent"  >
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link " href="#" >SERVICE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">CONTACT US</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" >
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+          </nav>
+      </header>
+      <section>
+          <div class="container fixdisplay">
+              <div class="row">
+                  <div class=" col-md-12 images ">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item ">
+                          <a href="#"><img src="./imagine/banner1.jpg" class="d-block w-100" ></a>
+                        </div>
+                        <div class="carousel-item active">
+                          <a href="#"><img src="./imagine/banner2.jpg" class="d-block w-100" ></a>
+                        </div>
+                        <div class="carousel-item">
+                          <a href="#"><img src="./imagine/banner3.jpg" class="d-block w-100" ></a>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                   
+                  </div>
+                  
+              </div>
+          </div>
+      </section>
+      <section>
+          <div class="container fixdisplay">
+              <div class="row">
+                  <div class="col-md-4"><h5>ABOUT US</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" >
+            
+                        Read more
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                      <div class="card card-body">
+                       <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                      </div>
+                    </div>
+                </div>
+                  <div class="col-md-4"><h5>OUR BENNEFITS</h5> <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p></div>
+                  <div class="col-md-4"><h5>TESTIMONIALS</h5><p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                    <P id="show">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</P></p>
+                    <p id="showmore" onclick="show()" style="color: blue; cursor: pointer;">SHOW LESS</p>
+                    
+              </div>
+          </div>
+          </div>
+      </section>
+      <section>
+          <div class="container fixdisplay ">
+              <div class="row">
+                 
+                  <div class="col-md-12"><h6>our portfolio</h6></div>
+              </div>
+              <div class="row">
+               
+                  <div class="col-12 col-sm-6 col-md-3  image "><a href="#"><img src="./imagine/picture.jpg"></div></a>
+                  <div class="col-12 col-sm-6 col-md-3  image"><a href="#"><img src="./imagine/picture1.jpg"></div></a>
+                  <div class="col-12 col-sm-6 col-md-3 image"><a href="#"><img src="./imagine/picture2.jpg"></div></a>
+                  <div class="col-12 col-sm-6 col-md-3  image"><a href="#"><img src="./imagine/picture4.jpg"></div></a>
+              
+              </div>
+          </div>
+      </section>
+      <section>
+         <div class="container fixxdisplay">
+             <div class="row">
+                 <div class="col-md-9   content"><h6>blog updates</h6><p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p></div>
+                 <div class="col-md-3  content"><h6>connect with us</h6><a href="#"><img src="./imagine/icon1.png"></a> <a href="#"><img src="./imagine/icon2.png"> </a><a href="#"><img src="./imagine/icon3.jpg"></a> <a href="#"><img src="./imagine/icon4.png"></a></div>
+             </div>
+            </div>
+      </section>
+      <footer>
+          <div class="container fixxdisplay">
+              <div class="row">
+                  <div class="col-12 col-sm-8 col-md-8">
+                      <p>Home | About Us | Servive | Blog | Contact Us <br>
+                      <i>@ 2019 all rights reserviced</i></p>
+                  </div>
+                  <div class="col-md-4 col-12 col-sm-4">
+                      <img src="./imagine/footer.jpg " height="130px">
+                     
+                </div>
+              </div>
+          </div>
+      </footer>
+   </div>
+   <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js">
+    </script>
+</body>
+</html>

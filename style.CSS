@@ -1,0 +1,67 @@
+.container-fulid {
+  border-top: solid 17px #090909;
+}
+header {
+  border-bottom: solid 1px #c0c0c0;
+  padding: 10px 0px;
+}
+.navbar-brand {
+  padding: 0px;
+  height: 100px;
+}
+ul {
+  margin-left: 110px;
+}
+.fixdisplay {
+  padding: 20px 0;
+  border-bottom: solid 1px #c0c0c0;
+}
+.fixxdisplay {
+  padding: 20px 0;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #090909;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(./imagine/arow6.PNG) no-repeat left top 2px;
+  padding-left: 20px;
+  border-bottom: solid 6px #090909;
+}
+h6 {
+  text-transform: uppercase;
+  font-family: bold;
+  color: #090909;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(./imagine/arow6.PNG) no-repeat left top 0px;
+  padding-left: 20px;
+}
+.image img {
+  height: 151px;
+  width: 250px;
+  margin-top: 10px;
+}
+.image {
+  background-color: white;
+}
+p {
+  font-size: 14px;
+}
+.content img {
+  padding: 10px;
+}
+footer {
+  background-color: #c0c0c0;
+}
+footer img {
+  padding-left: 100px;
+}
+footer p {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.images img {
+  width: 1200px;
+  height: 250px;
+}
